@@ -12,6 +12,7 @@ from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import RMSprop
+from keras.models import load_model
 
 
 batch_size = 128
@@ -55,3 +56,7 @@ history = model.fit(x_train, y_train,
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
+
+
+# HDF5ファイルを作成
+model.save('mnist_mlp_model.h5')

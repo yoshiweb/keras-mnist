@@ -14,7 +14,7 @@ $ python mnist_cnn_train.py
 
 #### 結果  
 
-> ```
+```
 Using TensorFlow backend.
 x_train shape: (60000, 28, 28, 1)
 60000 train samples
@@ -63,7 +63,7 @@ $ python mnist_cnn_predict.py number/5.png
 
 #### 結果
 
-> ```
+```
 Using TensorFlow backend.
 input: number/5.png
 2017-07-31 13:26:10.173888: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.

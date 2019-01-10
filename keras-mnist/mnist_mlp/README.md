@@ -1,5 +1,8 @@
 # KerasでMNIST（手書き数字画像の判別）をする　多層パーセプトロン
 
+チュートリアルでMNISTをやっても正解率98%のような数字しか出てこないので  
+実際に手書き文字画像を判別するものを作った。
+
 
 ### gitからクローンしてライブラリをインストール
 
@@ -100,10 +103,4 @@ Using TensorFlow backend.
 2019-01-10 15:13:41.981085: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
 5
 ```
-
-
-## 元にしたファイル
-
-https://github.com/fchollet/keras/blob/master/examples/  
-https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py  
 

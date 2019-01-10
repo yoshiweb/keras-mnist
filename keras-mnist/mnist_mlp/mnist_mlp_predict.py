@@ -8,11 +8,11 @@ img_height = 28
 img_width = 28
 
 if len(sys.argv) != 2:
-    print("引数に判別する画像のパスを記載してください")
+    print('引数に判別する画像のパスを記載してください')
     sys.exit(1)
 
 filename = sys.argv[1]
-print('input:', filename)
+# print('input:', filename)
 
 
 # 画像を読み込み
@@ -28,11 +28,11 @@ x = x.reshape(-1, 784)
 
 # モデル読み込み
 model = load_model('mnist_mlp_model.h5')
-model.summary()
+# model.summary()
 
 # 学習したモデルに対して予測を行う
 y = model.predict(x)
 
 # 予測結果を出力
-print(y)
+# print(y)
 print( np.argmax(y[0]) )

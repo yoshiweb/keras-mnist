@@ -8,8 +8,6 @@
 
 ```
 $ git clone https://github.com/yoshiweb/keras-mnist
-$ cd keras-mnist
-$ pip install -r requirements.txt
 ```
 
 
@@ -17,6 +15,7 @@ $ pip install -r requirements.txt
 
 ```
 $ cd keras-mnist/mnist_mlp
+$ pip install -r requirements.txt
 ```
 
 

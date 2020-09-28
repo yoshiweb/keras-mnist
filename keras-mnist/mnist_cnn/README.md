@@ -3,13 +3,13 @@
 チュートリアルでMNISTをやっても正解率98%のような数字しか出てこないので  
 実際に手書き文字画像を判別するものを作った。
 
+- 環境：Python 3.6.1
+
 
 ### gitからクローンしてライブラリをインストール
 
 ```
 $ git clone https://github.com/yoshiweb/keras-mnist
-$ cd keras-mnist
-$ pip install -r requirements.txt
 ```
 
 
@@ -17,6 +17,7 @@ $ pip install -r requirements.txt
 
 ```
 $ cd keras-mnist/mnist_cnn
+$ pip install -r requirements.txt
 ```
 
 

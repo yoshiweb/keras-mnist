@@ -16,7 +16,7 @@ filename = sys.argv[1]
 
 
 # 画像を読み込んで4次元テンソルへ変換
-img = image.load_img(filename, target_size=(img_height, img_width), grayscale=True)
+img = image.load_img(filename, target_size=(img_height, img_width), color_mode='grayscale')
 x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
 
